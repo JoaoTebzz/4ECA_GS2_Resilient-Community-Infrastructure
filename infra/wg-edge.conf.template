@@ -1,0 +1,16 @@
+# WireGuard do no de borda (cliente). NAO TESTADO no ambiente de desenvolvimento.
+# Gere as chaves com:  wg genkey | tee privada.key | wg pubkey > publica.key
+# NUNCA coloque a chave privada neste arquivo no git. Use o arquivo real so na maquina.
+[Interface]
+Address = 10.50.1.2/32
+PrivateKey = <COLE_A_CHAVE_PRIVADA_AQUI>
+DNS = 10.50.0.1
+
+[Peer]
+PublicKey = <CHAVE_PUBLICA_DA_NUVEM>
+PresharedKey = <CHAVE_PRE_COMPARTILHADA_POR_PAR>
+Endpoint = nuvem.vilaaurora.example:51820
+AllowedIPs = 10.50.0.0/24
+PersistentKeepalive = 25
+# O acesso administrativo remoto passa por esta VPN. A MFA do operador e feita no portal de acesso
+# (ZTNA/bastiao com TOTP) que fica atras da VPN; o WireGuard so autentica a MAQUINA (chave por no).

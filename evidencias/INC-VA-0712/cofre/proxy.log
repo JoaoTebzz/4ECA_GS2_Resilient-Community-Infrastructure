@@ -1,0 +1,2 @@
+{"ts": "2026-10-16T21:38:41.000Z", "source": "proxy", "event": "http_get", "host": "acesso-prefeitura-serraclara.example", "src": "10.20.1.15", "user": "coord1"}
+{"ts": "2026-10-16T21:39:55.000Z", "source": "proxy", "event": "http_post", "host": "acesso-prefeitura-serraclara.example", "src": "10.20.1.15", "user": "coord1", "bytes": 212, "nota": "envio de formulario (provavel usuario e senha)"}

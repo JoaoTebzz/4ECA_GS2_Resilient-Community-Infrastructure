@@ -17,7 +17,7 @@ python3 tests/live_detect_response.py   # regras A a D, SOAR, MTTD e MTTR
 python3 ai/anomaly.py                   # Isolation Forest
 python3 dns/check_email_auth.py         # SPF, DKIM e DMARC pela zona DNS
 python3 lab/run_incident.py             # reproduz o INC-VA-0712 em lab_out/
-python3 forensics/collect.py collect lab_out/INC-VA-0712/logs lab_out/INC-VA-0712/cofre --por "João Tebaldi" --clock-offset vpn=192
+python3 forensics/collect.py collect lab_out/INC-VA-0712/logs lab_out/INC-VA-0712/cofre --por "Seu Nome" --clock-offset vpn=192
 python3 forensics/collect.py verify lab_out/INC-VA-0712/cofre
 python3 forensics/timeline.py lab_out/INC-VA-0712/cofre lab_out/INC-VA-0712/linha_do_tempo.csv
 python3 lab/replay_detection.py
@@ -43,3 +43,5 @@ Chaves privadas não vão para o Git (veja `.gitignore`). `dns/dkim_private.key`
 - Chaves de sessão e de pseudônimo vêm de variável de ambiente (`.env.example`) ou são aleatórias a cada execução.
 - A chave DKIM e a PKI são **geradas localmente** (`dns/make_dkim.sh`, `pki/make_pki.sh`) e nunca vão para o Git.
 
+## Integrantes
+Preencher: [Nome 1 (RM)], [Nome 2 (RM)], [Nome 3 (RM)] · Turma [__] · Grupo [__]

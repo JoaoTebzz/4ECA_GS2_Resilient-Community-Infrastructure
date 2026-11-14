@@ -1,0 +1,8 @@
+; Zona do dominio ficticio do projeto (".example" e reservado e nunca resolve na internet)
+$ORIGIN vilaaurora.example.
+$TTL 3600
+@               IN MX 10 mail.vilaaurora.example.
+mail            IN A  203.0.113.25
+@               IN TXT "v=spf1 ip4:203.0.113.25 -all"
+va2026._domainkey IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArrxFnCXFZu9B5EY/JAF1F8LMJ27smAEax15IUqWdALce5nl54oxLrGbRXD42AuIqswSPFmDo2TS9NQeewRIQm8ww2AEPUm2y6HMF765a3hNjpsYRnpfG3o30DK4NPjIYYAAb1cXZ1KSOgjrHdfn3GUKs/qh2rXUHjphBULYJSZYxGncfd5Pnmm7w0raaX/fx0lBlEfXPVT6I1xgjckUVMdfkBnErnx3BCbq2E/dXD3Me7hzw68679Vq7lVKy4tN52Fm/dQTHhLvJYlxvokUrMbSobs0tQB7uA284MnZwZquBtOJxlDA5AGHMXxIWxdK2CsluHpizf5dyEG8DseX4MwIDAQAB"
+_dmarc          IN TXT "v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=s; rua=mailto:dmarc@vilaaurora.example"
