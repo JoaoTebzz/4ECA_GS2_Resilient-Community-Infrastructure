@@ -43,5 +43,3 @@ Chaves privadas não vão para o Git (veja `.gitignore`). `dns/dkim_private.key`
 - Chaves de sessão e de pseudônimo vêm de variável de ambiente (`.env.example`) ou são aleatórias a cada execução.
 - A chave DKIM e a PKI são **geradas localmente** (`dns/make_dkim.sh`, `pki/make_pki.sh`) e nunca vão para o Git.
 
-## Integrantes
-Preencher: [Nome 1 (RM)], [Nome 2 (RM)], [Nome 3 (RM)] · Turma [__] · Grupo [__]
