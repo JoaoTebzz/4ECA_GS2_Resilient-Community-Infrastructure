@@ -1,0 +1,70 @@
+{
+  "alertas_por_regra": {
+    "D_ATUADOR_FORA_DO_PERFIL": 10,
+    "C_DISPOSITIVO_SEM_CERT_VALIDO": 10,
+    "A_VPN_LOGIN_ANOMALO": 10,
+    "B_SQL_INJECTION": 10
+  },
+  "mttd_s": {
+    "D_ATUADOR_FORA_DO_PERFIL": {
+      "media": 0.243,
+      "max": 0.472
+    },
+    "C_DISPOSITIVO_SEM_CERT_VALIDO": {
+      "media": 0.243,
+      "max": 0.473
+    },
+    "A_VPN_LOGIN_ANOMALO": {
+      "media": 0.253,
+      "max": 0.496
+    },
+    "B_SQL_INJECTION": {
+      "media": 0.252,
+      "max": 0.493
+    }
+  },
+  "mttr_automatico_s": {
+    "D_ATUADOR_FORA_DO_PERFIL": {
+      "media": 0.0,
+      "max": 0.001
+    },
+    "C_DISPOSITIVO_SEM_CERT_VALIDO": {
+      "media": 0.0,
+      "max": 0.0
+    },
+    "A_VPN_LOGIN_ANOMALO": {
+      "media": 0.0,
+      "max": 0.001
+    },
+    "B_SQL_INJECTION": {
+      "media": 0.0,
+      "max": 0.0
+    }
+  },
+  "mttd_geral_s": 0.247,
+  "mttr_automatico_geral_s": 0.0,
+  "eventos_maliciosos_injetados": 40,
+  "alertas_gerados": 40,
+  "eventos_normais_injetados": 1,
+  "falsos_positivos_nos_eventos_normais": 0,
+  "regras_de_horario": {
+    "vpn_03h_com_mfa_ip_ok": true,
+    "vpn_10h_com_mfa_ip_ok": false,
+    "atuador_02h_via_painel": true,
+    "atuador_10h_via_painel": false
+  },
+  "efeitos_soar": {
+    "ips_bloqueados": [
+      "203.0.113.77"
+    ],
+    "sessoes_vpn_derrubadas": 10,
+    "dispositivos_isolados": 10,
+    "modo_seguro_acionado": 10
+  },
+  "alto_impacto": {
+    "pedidos_pendentes": 10,
+    "executados_sem_humano": 0,
+    "executados_apos_aprovacao": 1,
+    "chamada_direta_bloqueada": true
+  }
+}

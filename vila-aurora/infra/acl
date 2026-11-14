@@ -1,0 +1,7 @@
+# Menor privilegio: cada dispositivo publica so no proprio topico (o usuario e o CN do certificado).
+pattern write va/%u/telemetria
+pattern read  va/%u/comando
+# O rele da bomba so recebe comando; a borda (servico) e quem publica comandos.
+user edge-server
+topic read  va/+/telemetria
+topic write va/+/comando

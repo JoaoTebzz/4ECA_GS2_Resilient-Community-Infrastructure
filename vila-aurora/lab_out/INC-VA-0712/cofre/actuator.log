@@ -1,0 +1,1 @@
+{"ts": "2026-10-17T02:20:00.000Z", "source": "actuator", "cmd": "schedule", "pump": "bomba_escola", "start": 0, "end": 24, "via": "db_sync", "node": "borda-escola"}
