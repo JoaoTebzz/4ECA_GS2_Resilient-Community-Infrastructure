@@ -1,1 +1,0 @@
-{"ts": "2026-10-16T21:32:10.000Z", "source": "mail", "event": "delivered", "to": "coord1@vilaaurora.example", "frm": "atendimento@prefeitura-serraclara.example", "subject": "Atualizacao obrigatoria do acesso ao painel", "spf": "fail", "dkim": "none", "dmarc": "none", "url": "https://acesso-prefeitura-serraclara.example/painel"}
