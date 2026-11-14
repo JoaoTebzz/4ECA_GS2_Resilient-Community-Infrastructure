@@ -1,0 +1,23 @@
+{
+  "modo": "tempo real",
+  "duracao_total_min": 37.0,
+  "wan_fora_min": 30.0,
+  "leituras_produzidas": 8880,
+  "leituras_unicas_na_nuvem": 8880,
+  "perda_na_reconciliacao": 0,
+  "perda_percentual": 0.0,
+  "repetidos_descartados_pela_nuvem": 540,
+  "pendentes_no_buffer_no_fim": 0,
+  "camara_fria_falha_no_minuto": 13.0,
+  "alarme_local_no_minuto": 13.04,
+  "atraso_do_alarme_local_s": 2.2,
+  "alarme_no_sistema_legado": "so apos o WAN voltar (minuto 33.0)",
+  "operacao_autonoma_min": 30.0,
+  "acoes_locais_durante_queda": 1,
+  "sms_na_fila_para_enviar_quando_der": 1,
+  "tempo_para_esvaziar_buffer_s_cpu": 0.0323,
+  "cpu_segundos_processo": 0.43,
+  "memoria_pico_python_kb": 5255.2,
+  "ram_max_processo_mb": 32.9,
+  "tempo_real_do_teste_s": 2220.8
+}

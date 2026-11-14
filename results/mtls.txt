@@ -1,0 +1,13 @@
+{
+  "1_certificado_valido": "aceito",
+  "2_sem_certificado": "rejeitado: SSLError",
+  "3_cert_de_outra_CA_mesmo_nome": "rejeitado: SSLError",
+  "4_cert_de_um_dispositivo_com_chave_de_outro": "rejeitado no cliente (chave nao casa): SSLError",
+  "5_antes_de_revogar_rele": "aceito",
+  "6_depois_de_revogar_rele": "rejeitado: SSLError",
+  "6_tempo_revogar_e_publicar_s": 0.01,
+  "7_outro_dispositivo_continua_ok": "aceito",
+  "tls_versao": "TLSv1.3",
+  "tls_cifra": "TLS_AES_256_GCM_SHA384",
+  "log_mqtt_linhas": 7
+}

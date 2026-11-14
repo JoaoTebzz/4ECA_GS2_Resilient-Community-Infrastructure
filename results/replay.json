@@ -1,0 +1,21 @@
+{
+  "regras_que_disparariam": {
+    "A_VPN_LOGIN_ANOMALO": {
+      "alertas": 1,
+      "primeiro_alerta_utc": "02:11:10"
+    },
+    "B_SQL_INJECTION": {
+      "alertas": 4,
+      "primeiro_alerta_utc": "02:13:02"
+    },
+    "D_ATUADOR_FORA_DO_PERFIL": {
+      "alertas": 1,
+      "primeiro_alerta_utc": "02:20:00"
+    }
+  },
+  "bloqueio_automatico_do_ip_em": "02:11:10",
+  "requisicoes_sqli_do_atacante": 5,
+  "requisicoes_que_seriam_barradas": 5,
+  "mudanca_da_bomba_seria_evitada": true,
+  "nota": "Estimativa por repeticao dos logs: assume o SOAR reagindo no instante do evento (no teste ao vivo o atraso medio foi menor que 1 s)."
+}
